@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
   <artifactId>versioning-demo-1</artifactId>
-  <version>0.2</version>
+  <version>0.3-SNAPSHOT</version>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -25,7 +25,7 @@
     <connection>scm:git:git@github.com:dnilay/versioning-demo-1.git</connection>
     <developerConnection>scm:git:git@github.com:dnilay/versioning-demo-1.git</developerConnection>
     <url>https://github.com/dnilay/versioning-demo-1</url>
-    <tag>0.2</tag>
+    <tag>@{project.version}</tag>
   </scm>
 
   <build>
